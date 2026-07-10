@@ -6,6 +6,7 @@ from service import app
 from service.common import status
 
 COUNTER = {}
+s = 1
 
 
 ############################################################
