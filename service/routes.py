@@ -7,16 +7,17 @@ from service.common import status
 
 COUNTER = {}
 s = 1
-x = 1
 featureA = 'featureA'
 
+x = 5
+featureB = 'featureB'
 
 ############################################################
 # Health Endpoint
 ############################################################
-@app.route("/health")
-def health():
-    """Health Status"""
+@app.route("/health1")
+def health1():
+    """Health Status1"""
     return jsonify(dict(status="OK")), status.HTTP_200_OK
 
 
