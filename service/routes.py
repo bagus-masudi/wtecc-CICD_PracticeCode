@@ -10,6 +10,7 @@ s = 1
 featureA = 'featureA'
 featureB = 'featureB'
 
+
 ############################################################
 # Health Endpoint
 ############################################################
@@ -17,6 +18,7 @@ featureB = 'featureB'
 def health1():
     """Health Status1"""
     return jsonify(dict(status="OK")), status.HTTP_200_OK
+
 
 ############################################################
 # Index page
