@@ -8,8 +8,6 @@ from service.common import status
 COUNTER = {}
 s = 1
 featureA = 'featureA'
-
-x = 5
 featureB = 'featureB'
 
 ############################################################
